@@ -1,0 +1,32 @@
+# Thank you so much for purchasing our plugin, it really means a lot!
+#           
+#   _____ _                                         
+#  / ____(_)                                        
+# | |  __ ___   _____  __ ___      ____ _ _   _ ___ 
+# | | |_ | \ \ / / _ \/ _` \ \ /\ / / _` | | | / __|
+# | |__| | |\ V /  __/ (_| |\ V  V / (_| | |_| \__ \
+#  \_____|_| \_/ \___|\__,_| \_/\_/ \__,_|\__, |___/
+#                                          __/ |    
+#                                         |___/     
+#
+# This is a file to help you configure settings to your likings. It is recommended
+# to leave everything as it is, but, if you know what you're doing, feel free to change
+# it. If you do not understand what something does, please leave it as it is and ask for help.
+
+languageFile: "en_US" #The language file that should be used. Use the file name without .yml from the /lang/ folder
+prefix: "&aGiveaways &7>" #The prefix that is then replaced in the language file by %prefix% 
+updateChecker: true #Specifies whether or not the update checker should work. If set to false, your server will start up faster
+debug: false #If set to true, everything that is happening and is related to the plugin will be logged in the console
+saveDataEvery: 10 #Specifies every how many minutes the data (verified emails, pending requests etc.) should be saved
+
+storage: #Information on how user data should be saved 
+  type: "FLAT" #Available types are [MYSQL, FLAT].
+  mysql:
+    host: ""
+    database: ""
+    username: ""
+    password: ""
+    port: 3306
+    statement: "?autoReconnect=true&useUnicode=true"
+    tables:
+      giveaways: "giveaways"

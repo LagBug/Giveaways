@@ -1,0 +1,28 @@
+title: "Giveaways > Home GUI"
+slots: 9
+refresh: 20
+contents:
+  0:
+    item: "WOOL;1;2"
+    name: "&fCreate giveaway"
+    action: "CREATE_GIVEAWAY"
+    lore:
+     - "&7Click here to create a new giveaway"
+     - "&7for players to enter!"
+  1:
+    item: "WOOL;1;3"
+    name: "&fActive giveaways"
+    action: "GOTO_LIST"
+    lore:
+     - "&7Click here to go to the active giveaways"
+     - "&7GUI and see which giveaways are available."
+  8:
+    item: "PAPER;1;0"
+    action: "RELOAD_PLUGIN"
+    name: "&bPlugin information"
+    lore:
+     - "&7Some basic information about the plugin. Click here"
+     - "&7to reload the plugin's data."
+     - ""
+     - "&7Author: &6%plugin_author%"
+     - "&7Version: &6%plugin_version% &8(&a%version_status%&8)"

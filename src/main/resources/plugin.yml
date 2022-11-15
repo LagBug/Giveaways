@@ -1,0 +1,10 @@
+name: Giveaways
+main: me.lagbug.giveaways.spigot.Giveaways
+description: A premium giveaways plugin made to fit in every server
+version: '${version}'
+website: https://www.spigotmc.org/resources/giveaways.63932/
+author: LagBug
+commands:
+  giveaways:
+   description: Main command for the plugin.
+   aliases: [giveaway, g]

@@ -1,0 +1,52 @@
+title: "Giveaways > Editing GUI"
+slots: 9
+refresh: 20
+contents:
+  0:
+    item: "WOOL;1;2"
+    name: "&fSet a name"
+    action: "SET_NAME"
+    lore:
+     - "&7Click here to set the giveaway's name."
+  1:
+    item: "WOOL;1;3"
+    name: "&fSet the winners"
+    action: "SET_WINNERS"
+    lore:
+     - "&7Click here to set how many winners should be picked."
+  2:
+    item: "WOOL;1;4"
+    name: "&fSet display material"
+    action: "SET_MATERIAL"
+    lore:
+     - "&7Click here to set the material displayed in the GUI."
+  3:
+    item: "WOOL;1;5"
+    name: "&fSet giveaway time"
+    action: "SET_TIME"
+    lore:
+     - "&7Click here to set how long the giveaway should last."
+  4:
+    item: "WOOL;1;6"
+    name: "&fSet the rewards"
+    action: "SET_REWARDS"
+    lore:
+     - "&7Click here to set the giveaway's rewards."
+  5:
+    item: "WOOL;1;7"
+    name: "&fSet the lore"
+    action: "SET_LORE"
+    lore:
+     - "&7Click here to set the giveaway's lore."
+  7:
+    item: "PAPER;1;0"
+    action: "SAVE"
+    name: "&aSave"
+    lore:
+     - "&7Click here once you're done editing."
+  8:
+    item: "BARRIER;1;0"
+    action: "GO_BACK"
+    name: "&cCancel"
+    lore:
+     - "&7Click here to cancel and go back."
